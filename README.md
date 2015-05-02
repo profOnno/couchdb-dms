@@ -1,6 +1,6 @@
 # Couchdb-DMS
 
-##Goal 
+## Goal 
 Fiddling wich couchdb and makking a simple personal Document Management System.
 The idea is to store:
 - Bills
@@ -9,9 +9,19 @@ The idea is to store:
 - etc
 - etc
 
+## Tools used
+- Couchdb
+- knockoutjs
+- knockoutjs mapping
+- CSS Bootstrap
+- JQuery for JSONP query
 
-##Change settings for couchdb
-using couchdb with cors enabled... not secure for wan
+## Status
+- 20150502 Single html file that can be loaded from disk and can connect to couchdb.
+  It can query a key and maps it to a table, attachments can be opened via a link.
+
+## Change settings for couchdb
+using couchdb with cors enabled... not secure for wan.
 
 ```
 curl -X PUT 127.0.0.1:5984/_config/httpd/enable_cors -d '"true"'
