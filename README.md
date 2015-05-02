@@ -1,4 +1,14 @@
-# couchdb-dms
+# Couchdb-DMS
+
+##Goal 
+Fiddling wich couchdb and makking a simple personal Document Management System.
+The idea is to store:
+- Bills
+- Goverment correspondance
+- Hobby project schematics, drawings
+- etc
+- etc
+
 
 ##Change settings for couchdb
 using couchdb with cors enabled... not secure for wan
